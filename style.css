@@ -47,3 +47,12 @@ section h2{
     font-size: 5rem;
     color: rgb(255, 255, 255);
 }
+.home {
+    background: linear-gradient(to right, #ed4264, #ffedbc);
+}
+.projetos {
+    background: linear-gradient(to right, #085078, #85d8ce);
+}
+.contato {
+    background: linear-gradient(to right, #1d976c, #93f9b9);
+}
