@@ -60,4 +60,5 @@ section h2{
     z-index: -2;
     background: linear-gradient(to right, #ed4264, #ffedbc);
     transform: scale(2);
+    transition: all 0.5s ease;
 }
