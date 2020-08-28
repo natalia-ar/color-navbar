@@ -26,7 +26,6 @@ nav ul {
     font-size: 1.5rem;
     flex: 1;
 }
-/*1 em flex significa on*/
 nav ul {
     list-style: none;
     display: flex;
@@ -36,7 +35,6 @@ nav a {
     color: black;
     text-decoration: none;
 }
-/*------------------modificando o corpo-----------------------*/
 section {
     min-height: 100vh;
     display: flex;
@@ -55,4 +53,11 @@ section h2{
 }
 .contato {
     background: linear-gradient(to right, #1d976c, #93f9b9);
+}
+/*------------- bubble navbar-------------*/
+.bubble {
+    position: absolute;
+    z-index: -2;
+    background: linear-gradient(to right, #ed4264, #ffedbc);
+    transform: scale(2);
 }
